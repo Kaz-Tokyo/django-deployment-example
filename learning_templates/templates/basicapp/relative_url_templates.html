@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome to relative url templates page</h1>
+<!--<a href="basicapp/other.html">The other page</a>-->
+<a href="{% url 'basicapp:other' %}">The other page</a><br>
+<a href="{% url 'admin:index' %}">The admin page</a><br>
+<a href="{% url 'index' %}">The index page</a><br>
+</body>
+</html>
